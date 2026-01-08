@@ -188,3 +188,15 @@ nav a {
 .solution-text li {
     margin-bottom: 10px;
 }
+
+/* CTA */
+.cta {
+    padding: 80px 0;
+    text-align: center;
+    background: #fefce8;
+}
+.cta small {
+    display: block;
+    margin-top: 10px;
+    color: #6b7280;
+}
