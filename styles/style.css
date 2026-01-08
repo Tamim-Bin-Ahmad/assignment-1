@@ -56,11 +56,59 @@ nav a {
 }
 
 .btn-green {
-    background: #4b9462;
+    background: #4b9460;
     color: #fff;
 }
 
 .btn-outline {
     border: 1px solid #fff;
     color: #fff;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    height: 85vh;
+    background: url("../assets/hero-bg.png") center/cover no-repeat;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 30, 45, 0.75);
+}
+
+.hero-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    max-width: 700px;
+}
+
+.badge {
+    
+    background:rgba(255, 255, 255, 1);
+    color: #4b9460;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #4ade80;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    color: #e5e7eb;
+}
+
+.hero-buttons a {
+    margin-right: 15px;
 }
