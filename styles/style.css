@@ -112,3 +112,79 @@ nav a {
 .hero-buttons a {
     margin-right: 15px;
 }
+/* PROBLEMS */
+.problems {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.problems h2 span {
+    color: #22c55e;
+}
+
+.subtitle {
+    max-width: 600px;
+    margin: 15px auto 50px;
+    color: #6b7280;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    padding: 30px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+/* SOLUTION */
+.solution {
+    padding: 90px 0;
+    background: #f9fafb;
+}
+
+.solution-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 50px;
+    align-items: center;
+}
+
+.graphic {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: #e7f9ef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+}
+
+.label {
+    color: #22c55e;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.solution-text ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.solution-text li {
+    margin-bottom: 10px;
+}
