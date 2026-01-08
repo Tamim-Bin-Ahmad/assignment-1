@@ -200,3 +200,37 @@ nav a {
     margin-top: 10px;
     color: #6b7280;
 }
+
+/* FOOTER */
+.footer {
+    background: #0f172a;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 30px;
+}
+
+.social a {
+    margin-left: 15px;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #94a3b8;
+}
