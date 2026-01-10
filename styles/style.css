@@ -99,8 +99,8 @@ nav a:hover {
 
 .badge {
     
-    background:rgba(255, 255, 255, 1);
-    color: #4b9460;
+    background: #FFFFFF;
+    color: #469165;
     padding: 6px 14px;
     border-radius: 30px;
     font-size: 13px;
@@ -240,8 +240,8 @@ nav a:hover {
 }
 .social a:hover {
     color: #FF9F00;
-  text-decoration: none;
-  list-style-type: none;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .footer p {
