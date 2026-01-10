@@ -45,14 +45,21 @@ nav a {
     color: #111827;
     font-weight: 500;
 }
+nav a:hover {
+    color: #4b9460;
+    text-decoration: none;
+    list-style-type: none;
+}
 
 /* BUTTONS */
 .btn {
     padding: 10px 18px;
     border-radius: 6px;
     font-weight: 600;
+    margin-top: 10px;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
 
 .btn-green {
@@ -63,6 +70,10 @@ nav a {
 .btn-outline {
     border: 1px solid #fff;
     color: #fff;
+}
+.btn:hover {
+    background-color: yellowgreen;
+    color: white;
 }
 
 /* HERO */
@@ -226,6 +237,11 @@ nav a {
 
 .social a {
     margin-left: 15px;
+}
+.social a:hover {
+    color: #FF9F00;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .footer p {
